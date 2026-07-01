@@ -1,0 +1,136 @@
+.slider-wrapper {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  min-height: 350px;
+}
+
+.slider-content {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.testimonial-card {
+  background: var(--color-bg-card);
+  padding: var(--space-12) var(--space-10);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--color-border);
+  text-align: center;
+  position: relative;
+}
+
+.testimonial-quote {
+  font-family: var(--font-heading);
+  font-size: 5rem;
+  line-height: 1;
+  color: var(--color-orange);
+  opacity: 0.15;
+  position: absolute;
+  top: 10px;
+  left: 24px;
+}
+
+[dir="rtl"] .testimonial-quote {
+  left: auto;
+  right: 24px;
+}
+
+.quote-text {
+  font-size: var(--font-size-md);
+  color: var(--color-text-secondary);
+  font-style: italic;
+  margin-bottom: var(--space-8);
+  line-height: 1.8;
+}
+
+.testimonial-client {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-4);
+}
+
+.client-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--color-orange);
+}
+
+.client-meta {
+  text-align: left;
+}
+
+[dir="rtl"] .client-meta {
+  text-align: right;
+}
+
+.client-meta h4 {
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.client-meta p {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+}
+
+.slider-nav {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--color-bg-card);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+  z-index: 5;
+}
+
+.slider-nav:hover {
+  background: var(--color-green-dark);
+  color: white;
+  border-color: var(--color-green-dark);
+}
+
+/* Dots */
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-2);
+  margin-top: var(--space-8);
+}
+
+.slider-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-gray-300);
+  cursor: pointer;
+  transition: background var(--transition-fast), transform var(--transition-fast);
+}
+
+.slider-dot.active {
+  background: var(--color-orange);
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .slider-nav {
+    display: none;
+  }
+  .testimonial-card {
+    padding: var(--space-8) var(--space-4);
+  }
+}

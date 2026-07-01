@@ -1,0 +1,229 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 310; /* Keep on top of mobile menu drawer (290) */
+  padding: var(--space-4) 0;
+  transition: all var(--transition-base);
+  color: white;
+}
+
+.navbar.mobile-open {
+  background: transparent !important;
+  color: white !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+}
+
+.navbar.mobile-open .theme-toggle {
+  background: rgba(255,255,255,0.1) !important;
+  color: white !important;
+  border-color: rgba(255,255,255,0.15) !important;
+}
+
+.navbar.mobile-open .theme-toggle:hover {
+  background: rgba(255,255,255,0.2) !important;
+}
+
+.navbar.scrolled {
+  background: var(--color-bg);
+  color: var(--color-text);
+  box-shadow: var(--shadow-md);
+  padding: var(--space-3) 0;
+  backdrop-filter: blur(10px);
+}
+
+.navbar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-6);
+  position: relative;
+  z-index: 300; /* Stack above mobile-menu (290) */
+}
+
+/* Logo */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 1.4rem;
+  white-space: nowrap;
+  transition: transform var(--transition-fast);
+}
+
+.navbar-logo:hover {
+  transform: scale(1.03);
+}
+
+.logo-img {
+  height: 38px;
+  width: auto;
+  border-radius: var(--radius-sm);
+  object-fit: contain;
+}
+
+.logo-accent {
+  color: var(--color-orange);
+}
+
+/* Desktop Nav */
+.desktop-nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.nav-link {
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  border-radius: var(--radius-md);
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+}
+
+.nav-link:hover {
+  background: rgba(255,255,255,0.12);
+}
+
+.navbar.scrolled .nav-link:hover {
+  background: var(--color-bg-alt);
+  color: var(--color-orange);
+}
+
+/* Actions */
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+/* Mobile Toggle */
+.mobile-toggle {
+  display: none;
+  font-size: 1.5rem;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+  background: var(--color-green-dark);
+  padding: calc(var(--navbar-height) + var(--space-8)) var(--space-8) var(--space-8);
+  z-index: 290;
+  overflow-y: auto;
+  box-shadow: -5px 0 25px rgba(0,0,0,0.3);
+}
+
+[dir="rtl"] .mobile-menu {
+  right: auto;
+  left: 0;
+  box-shadow: 5px 0 25px rgba(0,0,0,0.3);
+}
+
+.mobile-nav {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.mobile-link {
+  padding: var(--space-3) var(--space-4);
+  font-size: var(--font-size-md);
+  font-weight: 500;
+  color: white;
+  border-radius: var(--radius-md);
+  transition: background var(--transition-fast);
+  text-align: left;
+}
+
+[dir="rtl"] .mobile-link {
+  text-align: right;
+}
+
+.mobile-link:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.mobile-drawer-actions {
+  margin-top: var(--space-6);
+  padding-top: var(--space-6);
+  border-top: 1px solid rgba(255,255,255,0.15);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.mobile-action-label {
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.6);
+  letter-spacing: 0.5px;
+}
+
+.mobile-drawer-actions .lang-switcher {
+  display: flex !important; /* Ensure it is visible in the drawer even on small screens */
+}
+
+@media (max-width: 1024px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: var(--space-3) 0;
+  }
+  .navbar-inner {
+    gap: var(--space-3);
+  }
+  .logo-text {
+    font-size: 1.2rem;
+  }
+  .logo-img {
+    height: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-logo {
+    gap: var(--space-2);
+  }
+  .logo-text {
+    font-size: 1.1rem;
+  }
+  .navbar-actions {
+    gap: var(--space-2);
+  }
+  .theme-toggle {
+    width: 34px;
+    height: 34px;
+    font-size: 0.95rem;
+  }
+  .mobile-toggle {
+    font-size: 1.3rem;
+  }
+  .navbar-actions .lang-switcher {
+    display: none;
+  }
+  .mobile-menu {
+    width: 100%;
+  }
+}

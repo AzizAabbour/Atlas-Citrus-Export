@@ -1,0 +1,197 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "services": "Services",
+    "products": "Produits",
+    "order": "Commander",
+    "gallery": "Galerie",
+    "contact": "Contact",
+    "search": "Rechercher..."
+  },
+  "hero": {
+    "title": "Export d'Agrumes Marocains Premium",
+    "subtitle": "Oranges, citrons, clémentines et mandarines fraîches exportées du Maroc vers les marchés internationaux.",
+    "cta1": "Nous Contacter",
+    "cta2": "Demander un Devis"
+  },
+  "about": {
+    "title": "À Propos",
+    "subtitle": "Livrer des agrumes marocains premium au monde depuis 2010",
+    "description": "Atlas Citrus Export est une entreprise marocaine leader dans l'exportation d'agrumes premium, spécialisée dans les oranges, citrons, clémentines et mandarines de qualité supérieure. Enracinés dans les terres fertiles du Maroc, nous combinons l'expertise agricole traditionnelle avec des pratiques modernes pour livrer les agrumes les plus frais aux marchés internationaux.",
+    "description2": "Notre engagement envers l'agriculture durable, le contrôle qualité rigoureux et la logistique fiable a fait de nous un partenaire de confiance pour les acheteurs en Europe, au Moyen-Orient et au-delà.",
+    "features": {
+      "moroccan": "Origine Marocaine",
+      "quality": "Qualité Premium",
+      "export": "Export International",
+      "fresh": "Produits Frais",
+      "logistics": "Logistique Fiable",
+      "sustainable": "Agriculture Durable"
+    },
+    "stats": {
+      "partners": "Partenaires Export",
+      "farms": "Fermes",
+      "tons": "Tonnes Exportées",
+      "quality": "Qualité Fraîche"
+    }
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Solutions complètes d'exportation d'agrumes de la ferme à la destination",
+    "citrusExport": {
+      "title": "Export d'Agrumes",
+      "desc": "Agrumes premium exportés vers les marchés internationaux avec documentation complète."
+    },
+    "packaging": {
+      "title": "Emballage",
+      "desc": "Solutions d'emballage professionnelles garantissant une arrivée en parfait état."
+    },
+    "qualityControl": {
+      "title": "Contrôle Qualité",
+      "desc": "Inspection qualité rigoureuse à chaque étape, de la récolte à la livraison."
+    },
+    "shipping": {
+      "title": "Expédition Internationale",
+      "desc": "Routes d'expédition fiables vers le monde entier avec suivi en temps réel."
+    },
+    "coldStorage": {
+      "title": "Stockage Frigorifique",
+      "desc": "Installations de stockage à froid modernes maintenant une fraîcheur optimale."
+    },
+    "logistics": {
+      "title": "Logistique",
+      "desc": "Gestion logistique de bout en bout pour des opérations de chaîne d'approvisionnement fluides."
+    }
+  },
+  "products": {
+    "title": "Nos Produits",
+    "subtitle": "Agrumes marocains premium sélectionnés pour les marchés internationaux",
+    "origin": "Origine: Maroc",
+    "exportQuality": "Qualité Export",
+    "sizes": "Tailles Disponibles",
+    "oranges": {
+      "name": "Oranges",
+      "sizes": "S, M, L, XL"
+    },
+    "lemons": {
+      "name": "Citrons",
+      "sizes": "S, M, L"
+    },
+    "clementines": {
+      "name": "Clémentines",
+      "sizes": "S, M, L"
+    },
+    "mandarins": {
+      "name": "Mandarines",
+      "sizes": "S, M, L"
+    }
+  },
+  "order": {
+    "title": "Passer Votre Commande",
+    "subtitle": "Remplissez le formulaire ci-dessous et nous vous répondrons via WhatsApp",
+    "fullName": "Nom Complet",
+    "companyName": "Nom de l'Entreprise",
+    "country": "Pays",
+    "city": "Ville",
+    "email": "Email",
+    "phone": "Numéro de Téléphone",
+    "whatsapp": "Numéro WhatsApp",
+    "product": "Produit",
+    "selectProduct": "Sélectionner un produit",
+    "orange": "Orange",
+    "lemon": "Citron",
+    "clementine": "Clémentine",
+    "mandarin": "Mandarine",
+    "quantity": "Quantité",
+    "unit": "Unité",
+    "kg": "Kilogrammes (KG)",
+    "container": "Conteneurs",
+    "message": "Notes Supplémentaires",
+    "deliveryDate": "Date de Livraison Souhaitée",
+    "submit": "Envoyer la Commande",
+    "sending": "Envoi...",
+    "minMorocco": "La commande minimum pour le Maroc est de 500 KG",
+    "minInternational": "La commande minimum pour l'international est de 1000 KG",
+    "required": "Ce champ est obligatoire",
+    "invalidEmail": "Veuillez entrer un email valide",
+    "selectCountry": "Sélectionner un pays",
+    "successMessage": "Votre commande a été envoyée via WhatsApp !"
+  },
+  "gallery": {
+    "title": "Galerie",
+    "subtitle": "Un aperçu de nos opérations",
+    "all": "Tout",
+    "farms": "Fermes",
+    "packaging": "Emballage",
+    "containers": "Conteneurs",
+    "harvesting": "Récolte",
+    "trucks": "Camions Export",
+    "loading": "Chargement"
+  },
+  "whyUs": {
+    "title": "Pourquoi Nous Choisir",
+    "subtitle": "Ce qui distingue Atlas Citrus Export",
+    "quality": { "title": "Qualité Premium", "desc": "Agrumes cueillis à la main répondant aux normes internationales les plus élevées." },
+    "fast": { "title": "Export Rapide", "desc": "Processus d'exportation efficaces garantissant une livraison ponctuelle." },
+    "fresh": { "title": "Produits Frais", "desc": "Fraîcheur de la ferme au port avec gestion de la chaîne du froid." },
+    "logistics": { "title": "Logistique Fiable", "desc": "Chaîne d'approvisionnement fiable du Maroc à votre destination." },
+    "prices": { "title": "Prix Compétitifs", "desc": "Meilleur rapport qualité-prix pour les agrumes marocains premium." },
+    "certified": { "title": "Fournisseurs Certifiés", "desc": "Entièrement certifiés et conformes aux normes internationales." }
+  },
+  "testimonials": {
+    "title": "Ce Que Disent Nos Clients",
+    "subtitle": "Approuvé par les acheteurs internationaux"
+  },
+  "faq": {
+    "title": "Questions Fréquemment Posées",
+    "subtitle": "Tout ce que vous devez savoir sur les commandes",
+    "q1": "Quelle est la quantité minimum de commande ?",
+    "a1": "Pour les commandes au Maroc, la quantité minimum est de 500 KG. Pour les commandes internationales, le minimum est de 1000 KG. Les chargements en conteneurs sont disponibles sur demande.",
+    "q2": "Dans quels pays livrez-vous ?",
+    "a2": "Nous exportons vers des pays d'Europe, du Moyen-Orient, d'Afrique du Nord et d'autres régions. Contactez-nous pour la disponibilité par pays.",
+    "q3": "Quels documents d'exportation fournissez-vous ?",
+    "a3": "Nous fournissons tous les documents d'exportation nécessaires, y compris les certificats phytosanitaires, les certificats d'origine, les factures commerciales et les connaissements.",
+    "q4": "Combien de temps prend la livraison ?",
+    "a4": "Les délais varient selon la destination. Europe : 3-7 jours, Moyen-Orient : 5-10 jours, autres destinations : 10-21 jours.",
+    "q5": "Quelles options d'emballage sont disponibles ?",
+    "a5": "Nous proposons divers emballages : cartons standard, emballages personnalisés, packs prêts à la vente et conteneurs en vrac."
+  },
+  "contact": {
+    "title": "Nous Contacter",
+    "subtitle": "Contactez notre équipe d'exportation",
+    "phone": "Téléphone",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "location": "Localisation",
+    "address": "Maroc",
+    "formName": "Votre Nom",
+    "formEmail": "Votre Email",
+    "formPhone": "Votre Téléphone",
+    "formSubject": "Sujet",
+    "formMessage": "Votre Message",
+    "send": "Envoyer le Message",
+    "sending": "Envoi..."
+  },
+  "footer": {
+    "description": "Entreprise marocaine d'exportation d'agrumes premium livrant des oranges, citrons, clémentines et mandarines fraîches aux marchés internationaux.",
+    "quickLinks": "Liens Rapides",
+    "contactInfo": "Informations de Contact",
+    "followUs": "Suivez-Nous",
+    "rights": "Tous droits réservés.",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation"
+  },
+  "cookie": {
+    "message": "Nous utilisons des cookies pour améliorer votre expérience. En continuant, vous acceptez notre utilisation des cookies.",
+    "accept": "Accepter",
+    "decline": "Refuser"
+  },
+  "notFound": {
+    "title": "Page Non Trouvée",
+    "subtitle": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "goHome": "Retour à l'Accueil"
+  },
+  "loader": {
+    "text": "Atlas Citrus Export"
+  }
+}

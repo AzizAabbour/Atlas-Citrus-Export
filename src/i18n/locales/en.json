@@ -1,0 +1,197 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "products": "Products",
+    "order": "Order",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "search": "Search..."
+  },
+  "hero": {
+    "title": "Premium Moroccan Citrus Export",
+    "subtitle": "Fresh Oranges, Lemons, Clementines and Mandarins exported from Morocco to international markets.",
+    "cta1": "Contact Us",
+    "cta2": "Request a Quote"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Delivering premium Moroccan citrus to the world since 2010",
+    "description": "Atlas Citrus Export is a leading Moroccan citrus export company specializing in premium quality oranges, lemons, clementines and mandarins. Rooted in the fertile lands of Morocco, we combine traditional farming expertise with modern agricultural practices to deliver the freshest citrus fruits to international markets.",
+    "description2": "Our commitment to sustainable agriculture, rigorous quality control, and reliable logistics has made us a trusted partner for buyers across Europe, the Middle East, and beyond.",
+    "features": {
+      "moroccan": "Moroccan Origin",
+      "quality": "Premium Quality",
+      "export": "International Export",
+      "fresh": "Fresh Products",
+      "logistics": "Reliable Logistics",
+      "sustainable": "Sustainable Agriculture"
+    },
+    "stats": {
+      "partners": "Export Partners",
+      "farms": "Farms",
+      "tons": "Tons Exported",
+      "quality": "Fresh Quality"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive citrus export solutions from farm to destination",
+    "citrusExport": {
+      "title": "Citrus Export",
+      "desc": "Premium citrus fruits exported to international markets with full documentation and compliance."
+    },
+    "packaging": {
+      "title": "Packaging",
+      "desc": "Professional packaging solutions ensuring your citrus arrives in perfect condition."
+    },
+    "qualityControl": {
+      "title": "Quality Control",
+      "desc": "Rigorous quality inspection at every stage from harvest to delivery."
+    },
+    "shipping": {
+      "title": "International Shipping",
+      "desc": "Reliable shipping routes to destinations worldwide with real-time tracking."
+    },
+    "coldStorage": {
+      "title": "Cold Storage",
+      "desc": "State-of-the-art cold storage facilities maintaining optimal freshness."
+    },
+    "logistics": {
+      "title": "Logistics",
+      "desc": "End-to-end logistics management for seamless supply chain operations."
+    }
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "Premium Moroccan citrus fruits selected for international markets",
+    "origin": "Origin: Morocco",
+    "exportQuality": "Export Quality",
+    "sizes": "Available Sizes",
+    "oranges": {
+      "name": "Oranges",
+      "sizes": "S, M, L, XL"
+    },
+    "lemons": {
+      "name": "Lemons",
+      "sizes": "S, M, L"
+    },
+    "clementines": {
+      "name": "Clementines",
+      "sizes": "S, M, L"
+    },
+    "mandarins": {
+      "name": "Mandarins",
+      "sizes": "S, M, L"
+    }
+  },
+  "order": {
+    "title": "Place Your Order",
+    "subtitle": "Fill out the form below and we'll get back to you via WhatsApp",
+    "fullName": "Full Name",
+    "companyName": "Company Name",
+    "country": "Country",
+    "city": "City",
+    "email": "Email",
+    "phone": "Phone Number",
+    "whatsapp": "WhatsApp Number",
+    "product": "Product",
+    "selectProduct": "Select a product",
+    "orange": "Orange",
+    "lemon": "Lemon",
+    "clementine": "Clementine",
+    "mandarin": "Mandarin",
+    "quantity": "Quantity",
+    "unit": "Unit",
+    "kg": "Kilograms (KG)",
+    "container": "Containers",
+    "message": "Additional Notes",
+    "deliveryDate": "Preferred Delivery Date",
+    "submit": "Submit Order",
+    "sending": "Sending...",
+    "minMorocco": "Minimum order for Morocco is 500 KG",
+    "minInternational": "Minimum order for international is 1000 KG",
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email",
+    "selectCountry": "Select a country",
+    "successMessage": "Your order has been sent via WhatsApp!"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "A glimpse into our operations",
+    "all": "All",
+    "farms": "Farms",
+    "packaging": "Packaging",
+    "containers": "Containers",
+    "harvesting": "Harvesting",
+    "trucks": "Export Trucks",
+    "loading": "Loading"
+  },
+  "whyUs": {
+    "title": "Why Choose Us",
+    "subtitle": "What sets Atlas Citrus Export apart",
+    "quality": { "title": "Premium Quality", "desc": "Handpicked citrus fruits meeting the highest international standards." },
+    "fast": { "title": "Fast Export", "desc": "Efficient export processes ensuring timely delivery worldwide." },
+    "fresh": { "title": "Fresh Products", "desc": "Farm-to-port freshness with cold chain management." },
+    "logistics": { "title": "Reliable Logistics", "desc": "Dependable supply chain from Morocco to your destination." },
+    "prices": { "title": "Competitive Prices", "desc": "Best value for premium quality Moroccan citrus." },
+    "certified": { "title": "Certified Suppliers", "desc": "Fully certified and compliant with international standards." }
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Trusted by international buyers worldwide"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about ordering",
+    "q1": "What is the minimum order quantity?",
+    "a1": "For orders within Morocco, the minimum quantity is 500 KG. For international orders, the minimum is 1000 KG. Container loads are also available upon request.",
+    "q2": "Which countries do you deliver to?",
+    "a2": "We export to countries across Europe, the Middle East, North Africa, and other regions. Contact us for specific country availability and shipping details.",
+    "q3": "What export documents do you provide?",
+    "a3": "We provide all necessary export documentation including phytosanitary certificates, certificates of origin, commercial invoices, packing lists, and bill of lading.",
+    "q4": "How long does shipping take?",
+    "a4": "Shipping times vary by destination. European deliveries typically take 3-7 days, Middle East 5-10 days, and other destinations 10-21 days.",
+    "q5": "What packaging options are available?",
+    "a5": "We offer various packaging options including standard export cartons, branded packaging, retail-ready packs, and bulk containers. Custom packaging is available on request."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our export team",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "location": "Location",
+    "address": "Morocco",
+    "formName": "Your Name",
+    "formEmail": "Your Email",
+    "formPhone": "Your Phone",
+    "formSubject": "Subject",
+    "formMessage": "Your Message",
+    "send": "Send Message",
+    "sending": "Sending..."
+  },
+  "footer": {
+    "description": "Premium Moroccan citrus export company delivering fresh oranges, lemons, clementines and mandarins to international markets.",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Info",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "cookie": {
+    "message": "We use cookies to enhance your browsing experience. By continuing to visit this site you agree to our use of cookies.",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "subtitle": "The page you are looking for doesn't exist or has been moved.",
+    "goHome": "Go Home"
+  },
+  "loader": {
+    "text": "Atlas Citrus Export"
+  }
+}

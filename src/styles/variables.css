@@ -1,0 +1,131 @@
+/* ============================================
+   ATLAS CITRUS EXPORT — CSS DESIGN TOKENS
+   ============================================ */
+
+:root {
+  /* Brand Colors */
+  --color-green-dark: #1B5E20;
+  --color-green: #2E7D32;
+  --color-green-light: #4CAF50;
+  --color-orange: #F57C00;
+  --color-orange-light: #FF9800;
+  --color-orange-dark: #E65100;
+  --color-yellow: #FBC02D;
+  --color-yellow-light: #FFF176;
+  --color-white: #FFFFFF;
+  --color-black: #111111;
+  --color-gray-50: #FAFAFA;
+  --color-gray-100: #F5F5F5;
+  --color-gray-200: #EEEEEE;
+  --color-gray-300: #E0E0E0;
+  --color-gray-400: #BDBDBD;
+  --color-gray-500: #9E9E9E;
+  --color-gray-600: #757575;
+  --color-gray-700: #616161;
+  --color-gray-800: #424242;
+  --color-gray-900: #212121;
+
+  /* Semantic Colors */
+  --color-bg: var(--color-white);
+  --color-bg-alt: var(--color-gray-50);
+  --color-bg-card: var(--color-white);
+  --color-text: var(--color-black);
+  --color-text-secondary: var(--color-gray-600);
+  --color-text-muted: var(--color-gray-500);
+  --color-border: var(--color-gray-200);
+  --color-primary: var(--color-green-dark);
+  --color-accent: var(--color-orange);
+  --color-highlight: var(--color-yellow);
+  --color-success: #43A047;
+  --color-error: #E53935;
+  --color-warning: var(--color-orange);
+
+  /* Typography */
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Poppins', sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-md: 1.125rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 2rem;
+  --font-size-3xl: 2.5rem;
+  --font-size-4xl: 3rem;
+  --font-size-5xl: 3.5rem;
+  --font-size-6xl: 4rem;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.1);
+  --shadow-lg: 0 8px 30px rgba(0,0,0,0.12);
+  --shadow-xl: 0 12px 40px rgba(0,0,0,0.15);
+  --shadow-glow-orange: 0 0 30px rgba(245,124,0,0.3);
+  --shadow-glow-green: 0 0 30px rgba(27,94,32,0.3);
+
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  --transition-spring: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* Layout */
+  --container-max: 1200px;
+  --container-wide: 1400px;
+  --navbar-height: 72px;
+
+  /* Z-Index */
+  --z-base: 1;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-overlay: 300;
+  --z-modal: 400;
+  --z-toast: 500;
+  --z-tooltip: 600;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, var(--color-green-dark), var(--color-green));
+  --gradient-accent: linear-gradient(135deg, var(--color-orange), var(--color-yellow));
+  --gradient-hero: linear-gradient(135deg, rgba(27,94,32,0.85), rgba(17,17,17,0.7));
+  --gradient-card: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05));
+}
+
+/* ============================================
+   DARK MODE
+   ============================================ */
+[data-theme="dark"] {
+  --color-bg: #0A0A0A;
+  --color-bg-alt: #141414;
+  --color-bg-card: #1A1A1A;
+  --color-text: #F0F0F0;
+  --color-text-secondary: #B0B0B0;
+  --color-text-muted: #808080;
+  --color-border: #2A2A2A;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.3);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.4);
+  --shadow-lg: 0 8px 30px rgba(0,0,0,0.5);
+  --shadow-xl: 0 12px 40px rgba(0,0,0,0.6);
+  --gradient-card: linear-gradient(135deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02));
+}
